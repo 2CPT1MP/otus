@@ -7,9 +7,8 @@ import (
 )
 
 func main() {
+	originalPhrase := "Hello, OTUS!"
+	reversedPhrase := stringutil.Reverse(originalPhrase)
 
-	var originalPhrase string = "Hello, OTUS!"
-
-	var reversedPhrase string = stringutil.Reverse(originalPhrase)
 	fmt.Println(reversedPhrase)
 }
